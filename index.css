@@ -1,0 +1,2434 @@
+.sociodesk-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.sociodesk-container01 {
+  top: -1px;
+  left: 6px;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+}
+.sociodesk-container-header {
+  height: 1392px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.sociodesk-headersection {
+  width: 1919px;
+  height: 1472px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: flex-end;
+}
+.sociodesk-container02 {
+  top: 216px;
+  right: 135px;
+  width: 848px;
+  height: 857px;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.sociodesk-herobackground {
+  right: -131px;
+  width: 848px;
+  bottom: -15px;
+  height: 857px;
+  position: absolute;
+  border-radius: 0 0 0 327px;
+}
+.sociodesk-purpulebackground {
+  top: 53px;
+  right: 66px;
+  width: 621px;
+  height: 612px;
+  position: absolute;
+}
+.sociodesk-heroimage {
+  top: 60px;
+  right: 6px;
+  width: 712px;
+  height: 540px;
+  position: absolute;
+}
+.sociodesk-text {
+  top: 32px;
+  left: 96px;
+  color: rgba(57, 0, 91, 1);
+  height: auto;
+  position: absolute;
+  font-size: 47px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-navbar-interactive {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.sociodesk-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.sociodesk-burger-menu {
+  display: none;
+}
+.sociodesk-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.sociodesk-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.sociodesk-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sociodesk-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.sociodesk-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sociodesk-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.sociodesk-links {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sociodesk-link {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.sociodesk-link01 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.sociodesk-link02 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.sociodesk-link03 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.sociodesk-link04 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.sociodesk-buttons {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sociodesk-container03 {
+  flex: 0 0 auto;
+  width: 736px;
+  height: auto;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.sociodesk-container04 {
+  top: 16px;
+  left: 629px;
+  width: 751px;
+  height: 46px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.sociodesk-container05 {
+  left: 9px;
+  width: 101.99653625488281px;
+  bottom: -4px;
+  height: 33.333335876464844px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.sociodesk-rectangle1 {
+  top: 15.000003814697266px;
+  left: 0px;
+  width: 102px;
+  height: 15px;
+  position: absolute;
+}
+.sociodesk-text02 {
+  top: 0px;
+  left: 15px;
+  color: rgb(57, 0, 91);
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  font-style: Bold;
+  text-align: left;
+  font-family: "Rubik";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-text03 {
+  left: 166px;
+  color: rgb(57, 0, 91);
+  bottom: -4px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  font-style: Bold;
+  text-align: left;
+  font-family: "Rubik";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-text04 {
+  left: 463px;
+  color: rgba(57, 0, 91, 1);
+  bottom: -5px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-text05 {
+  left: 339px;
+  color: rgb(57, 0, 91);
+  bottom: -4px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  font-style: Bold;
+  text-align: left;
+  font-family: "Rubik";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-text06 {
+  color: rgba(57, 0, 91, 1);
+  right: 16px;
+  bottom: -5px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-link05 {
+  display: contents;
+}
+.sociodesk-container06 {
+  top: 565.9895833730698px;
+  left: 97.98611688613892px;
+  width: 383.9930725097656px;
+  height: 140px;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.sociodesk-exploreportfolio {
+  top: 0px;
+  left: 0px;
+  width: 370px;
+  height: 135px;
+  position: absolute;
+  border-radius: 0 50px 50px;
+}
+.sociodesk-text07 {
+  top: 40px;
+  left: 106px;
+  color: rgb(57, 0, 91);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Medium;
+  text-align: left;
+  font-family: "Rubik";
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-container07 {
+  left: 88px;
+  width: 313.9930725097656px;
+  bottom: 238px;
+  height: 101.99653625488281px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.sociodesk-servicesbuttn {
+  top: 0px;
+  left: 0px;
+  width: 314px;
+  height: 102px;
+  position: absolute;
+  border-radius: 0 50px 50px;
+}
+.sociodesk-text08 {
+  top: 27.2222900390625px;
+  left: 68.99305725097656px;
+  color: rgba(57, 0, 91, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-rectangle5 {
+  top: 805px;
+  left: -2px;
+  width: 849px;
+  height: 295px;
+  position: absolute;
+  border-radius: 0 52px 52px 0;
+}
+.sociodesk-link06 {
+  display: contents;
+}
+.sociodesk-container08 {
+  top: 5px;
+  right: 86px;
+  width: 266px;
+  height: 102px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  text-decoration: none;
+}
+.sociodesk-bookappointmentbutn {
+  top: -4px;
+  right: -76px;
+  width: auto;
+  height: 102px;
+  position: absolute;
+  border-radius: 0 0 0 50px;
+}
+.sociodesk-text10 {
+  top: 4px;
+  color: rgba(57, 0, 91, 1);
+  right: -2px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-rectangle4 {
+  top: 228px;
+  left: -2px;
+  width: 673px;
+  height: 317px;
+  opacity: 0.9;
+  position: absolute;
+  border-radius: 0 44px 44px 0;
+}
+.sociodesk-container09 {
+  top: 287px;
+  left: 125px;
+  width: 847px;
+  height: 252px;
+  position: absolute;
+}
+.sociodesk-container10 {
+  display: contents;
+}
+.sociodesk-ellipse2 {
+  top: -48px;
+  left: 1098px;
+  width: 71px;
+  height: 71px;
+  opacity: 0.53;
+  position: absolute;
+}
+.sociodesk-ellipse5 {
+  top: 886px;
+  left: 453px;
+  width: 42px;
+  height: 42px;
+  opacity: 0.53;
+  position: absolute;
+}
+.sociodesk-ellipse12 {
+  top: 569px;
+  left: 467px;
+  width: 109px;
+  height: 109px;
+  opacity: 0.53;
+  position: absolute;
+}
+.sociodesk-ellipse9 {
+  right: 198px;
+  width: 251px;
+  bottom: -43px;
+  height: 205px;
+  opacity: 0.53;
+  position: absolute;
+  margin-right: 19px;
+}
+.sociodesk-ellipse11 {
+  top: 206px;
+  left: 1341px;
+  width: 75px;
+  height: 75px;
+  opacity: 0.53;
+  position: absolute;
+}
+.sociodesk-text14 {
+  top: 796px;
+  left: 58px;
+  color: rgb(57, 0, 91);
+  width: 739px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Rubik";
+  font-weight: 400;
+  line-height: 200.5%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-bulb1 {
+  top: 125px;
+  right: 56px;
+  width: 94px;
+  height: 88px;
+  position: absolute;
+}
+.sociodesk-button {
+  display: none;
+}
+.sociodesk-container-service {
+  top: 1370px;
+  left: -7px;
+  width: 1920px;
+  height: 1387px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.sociodesk-servicessection {
+  top: 85px;
+  left: -7px;
+  width: 1920px;
+  height: 1255px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.sociodesk-container11 {
+  flex: 0 0 auto;
+  width: 305px;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.sociodesk-container12 {
+  flex: 0 0 auto;
+  width: 305px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.sociodesk-container13 {
+  flex: 0 0 auto;
+  width: 305px;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.sociodesk-container14 {
+  right: -621px;
+  width: 204px;
+  bottom: -698px;
+  height: 263px;
+  position: absolute;
+}
+.sociodesk-container15 {
+  display: contents;
+}
+.sociodesk-container16 {
+  right: -138px;
+  width: 203px;
+  bottom: -701px;
+  height: 268px;
+  position: absolute;
+}
+.sociodesk-container17 {
+  display: contents;
+}
+.sociodesk-container18 {
+  top: 791px;
+  right: 125px;
+  width: 262px;
+  height: 268px;
+  position: absolute;
+}
+.sociodesk-container19 {
+  display: contents;
+}
+.sociodesk-container20 {
+  top: 435px;
+  left: 1180px;
+  width: 242px;
+  height: 269px;
+  position: absolute;
+}
+.sociodesk-container21 {
+  display: contents;
+}
+.sociodesk-container22 {
+  top: 796px;
+  left: 1185px;
+  width: 211px;
+  height: 281px;
+  position: absolute;
+}
+.sociodesk-container23 {
+  display: contents;
+}
+.sociodesk-container24 {
+  top: 799px;
+  left: 724px;
+  width: 221px;
+  height: 267px;
+  position: absolute;
+  margin-bottom: 3px;
+}
+.sociodesk-container25 {
+  display: contents;
+}
+.sociodesk-container26 {
+  top: 434px;
+  right: 139px;
+  width: 256px;
+  height: 269px;
+  position: absolute;
+}
+.sociodesk-container27 {
+  display: contents;
+}
+.sociodesk-container28 {
+  top: 71px;
+  left: 247px;
+  width: 190px;
+  height: 259px;
+  position: absolute;
+}
+.sociodesk-container29 {
+  display: contents;
+}
+.sociodesk-container30 {
+  top: 80px;
+  right: 160px;
+  width: 240px;
+  height: 267px;
+  position: absolute;
+}
+.sociodesk-container31 {
+  display: contents;
+}
+.sociodesk-container32 {
+  top: 73px;
+  left: 719px;
+  width: 190px;
+  height: 259px;
+  position: absolute;
+}
+.sociodesk-container33 {
+  display: contents;
+}
+.sociodesk-container34 {
+  top: 801px;
+  left: 239px;
+  height: 263px;
+  position: absolute;
+}
+.sociodesk-container35 {
+  display: contents;
+}
+.sociodesk-container36 {
+  top: 164px;
+  left: 1172px;
+  width: 190px;
+  height: 257px;
+  position: absolute;
+}
+.sociodesk-container37 {
+  display: contents;
+}
+.sociodesk-container-about {
+  top: 2764px;
+  left: -3px;
+  width: 1908px;
+  height: 1219px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sociodesk-aboutsection {
+  top: -26px;
+  left: -1px;
+  width: 1919px;
+  height: 1153px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  margin-bottom: 20px;
+}
+.sociodesk-container38 {
+  top: 42.986328125px;
+  right: 43.99310660362244px;
+  width: 342.9861145019531px;
+  height: 115.98958587646484px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.sociodesk-servicesbuttn1 {
+  left: -905px;
+  width: 660px;
+  bottom: -832px;
+  height: 352px;
+  z-index: auto;
+  position: absolute;
+  border-radius: 0 50px 50px;
+}
+.sociodesk-container39 {
+  top: 150px;
+  left: -8px;
+  width: 1491.99658203125px;
+  height: 391.9965515136719px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.sociodesk-rectangle18 {
+  top: 0px;
+  left: 0px;
+  width: 1492px;
+  height: 392px;
+  position: absolute;
+  border-radius: 0 52px 52px 0;
+}
+.sociodesk-text27 {
+  left: 42px;
+  color: rgb(57, 0, 91);
+  bottom: 6px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Light;
+  text-align: left;
+  font-family: "Rubik";
+  font-weight: 300;
+  line-height: 1.5;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-container40 {
+  top: 681px;
+  left: 690px;
+  width: 422.8819580078125px;
+  height: 231.23247909545898px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.sociodesk-text58 {
+  top: 0px;
+  left: 3.9930419921875px;
+  color: rgba(57, 0, 91, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Light;
+  text-align: center;
+  font-family: Rubik;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-text60 {
+  top: 66px;
+  left: 2px;
+  color: rgba(57, 0, 91, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Light;
+  text-align: center;
+  font-family: Rubik;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-text62 {
+  left: 0px;
+  color: rgba(57, 0, 91, 1);
+  bottom: 63.00341796875px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Light;
+  text-align: center;
+  font-family: Rubik;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-text64 {
+  left: -37px;
+  color: rgba(57, 0, 91, 1);
+  width: 500px;
+  bottom: 0px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Light;
+  text-align: center;
+  font-family: Rubik;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-servicesbuttn2 {
+  top: 14px;
+  right: 68px;
+  width: 343px;
+  height: 116px;
+  position: absolute;
+  border-radius: 0 50px 50px;
+}
+.sociodesk-text66 {
+  top: 38px;
+  color: rgba(57, 0, 91, 1);
+  right: 184px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Rubik;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-container41 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sociodesk-container-brand {
+  top: 3970px;
+  flex: 0 0 auto;
+  left: 7px;
+  width: 1919px;
+  height: 1675px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sociodesk-brandswehaveworkedwith {
+  width: 100%;
+  height: 1589px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.sociodesk-logobg {
+  top: 748px;
+  left: 358px;
+  width: 1320px;
+  height: 362px;
+  position: absolute;
+  border-radius: 38px;
+}
+.sociodesk-container42 {
+  top: 235.989501953125px;
+  left: 268.99306535720825px;
+  width: 1320.0001220703125px;
+  height: 361.9965515136719px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.sociodesk-logobg1 {
+  top: 12px;
+  right: -197px;
+  width: 1426px;
+  height: 400px;
+  position: absolute;
+  border-radius: 38px;
+}
+.sociodesk-group6 {
+  top: 89px;
+  right: -70px;
+  width: 490px;
+  height: 209px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(33, 33, 33, 1);
+}
+.sociodesk-logohelio {
+  top: 34px;
+  left: 12.018499374389648px;
+  width: 466px;
+  height: 140px;
+  position: absolute;
+}
+.sociodesk-group7 {
+  top: 89px;
+  left: 110px;
+  width: 420px;
+  height: 209px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(33, 33, 33, 1);
+}
+.sociodesk-hrlogo {
+  top: 46px;
+  left: 13px;
+  width: 398px;
+  height: 140px;
+  position: absolute;
+}
+.sociodesk-rebridzrealtors {
+  top: 93px;
+  left: 555px;
+  width: 209px;
+  height: 209px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(33, 33, 33, 1);
+}
+.sociodesk-logoe1603775232999 {
+  top: 5px;
+  left: 5px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+.sociodesk-group3 {
+  top: 104px;
+  left: -1px;
+  width: 737px;
+  height: 102px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(222, 205, 240, 0.9333333373069763);
+}
+.sociodesk-text67 {
+  top: 28px;
+  left: 98px;
+  color: rgba(57, 0, 91, 1);
+  width: 541px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Rubik;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-laxmirealestate {
+  top: 824px;
+  left: 377px;
+  width: 501px;
+  height: 209px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(226, 226, 226, 1);
+}
+.sociodesk-untitleddesign13 {
+  top: 35px;
+  left: 0px;
+  width: 489px;
+  height: 140px;
+  position: absolute;
+}
+.sociodesk-nitinproperties {
+  top: 820px;
+  left: 927px;
+  width: 710px;
+  height: 209px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(33, 33, 33, 1);
+}
+.sociodesk-image12569innercompimage {
+  top: 48px;
+  left: 5px;
+  width: 700px;
+  height: 113px;
+  position: absolute;
+}
+.sociodesk-link07 {
+  display: contents;
+}
+.sociodesk-container43 {
+  top: 1229px;
+  left: 745px;
+  width: 362px;
+  height: 128.99305725097656px;
+  display: flex;
+  position: absolute;
+  text-decoration: none;
+}
+.sociodesk-exploreportfolio1 {
+  right: -95px;
+  width: 454px;
+  bottom: -3px;
+  height: 129px;
+  position: absolute;
+  border-radius: 70px;
+}
+.sociodesk-text68 {
+  top: 42px;
+  color: rgb(56, 0, 91);
+  right: 14px;
+  width: 245px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: "Rubik";
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-arrowhead1 {
+  top: 32px;
+  right: -71px;
+  width: 73px;
+  height: 63px;
+  position: absolute;
+}
+.sociodesk-container44 {
+  top: 5601px;
+  flex: 0 0 auto;
+  left: -2px;
+  width: 1919px;
+  height: 1028px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sociodesk-contactussection {
+  top: 69px;
+  left: 89px;
+  width: 1440px;
+  height: 655px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+.sociodesk-container45 {
+  top: 125.99609375px;
+  left: 70.99609375px;
+  width: 1115px;
+  height: 451.9921875px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sociodesk-container46 {
+  top: 0px;
+  left: 0px;
+  width: 1115px;
+  height: 451.9921875px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sociodesk-rectangle36 {
+  top: 131px;
+  left: 152px;
+  width: 1193px;
+  height: 469px;
+  position: absolute;
+  border-radius: 0 50px 50px;
+}
+.sociodesk-servicesbuttn3 {
+  top: 27px;
+  left: 102px;
+  width: 314px;
+  height: 102px;
+  position: absolute;
+  border-radius: 0 50px 50px;
+}
+.sociodesk-text69 {
+  top: 55px;
+  left: 148px;
+  color: rgba(57, 0, 91, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-text71 {
+  top: 165px;
+  left: 303px;
+  color: rgba(57, 0, 91, 1);
+  width: 198px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-text73 {
+  top: 372px;
+  left: 319px;
+  color: rgb(57, 0, 91);
+  width: 258px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Rubik";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-text74 {
+  top: 477px;
+  left: 289px;
+  color: rgba(57, 0, 91, 1);
+  width: 481px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-text76 {
+  top: 170px;
+  left: 939px;
+  color: rgba(57, 0, 91, 1);
+  width: 195px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-text78 {
+  top: 260px;
+  left: 956px;
+  color: rgba(57, 0, 91, 1);
+  width: 154px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-text80 {
+  top: 267px;
+  left: 166px;
+  color: rgb(57, 0, 91);
+  width: 481px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  font-family: "Rubik";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sociodesk-link08 {
+  display: contents;
+}
+.sociodesk-icon04 {
+  top: 154px;
+  left: 846px;
+  width: 89px;
+  height: 68px;
+  position: absolute;
+  padding-top: 1px;
+  text-decoration: none;
+}
+.sociodesk-link09 {
+  display: contents;
+}
+.sociodesk-icon06 {
+  top: 245px;
+  left: 847px;
+  width: 89px;
+  height: 68px;
+  position: absolute;
+  text-decoration: none;
+}
+.sociodesk-icon08 {
+  top: 460px;
+  left: 225px;
+  width: 89px;
+  height: 68px;
+  position: absolute;
+}
+.sociodesk-link10 {
+  display: contents;
+}
+.sociodesk-icon10 {
+  top: 348px;
+  left: 231px;
+  width: 89px;
+  height: 68px;
+  position: absolute;
+  text-decoration: none;
+}
+.sociodesk-link11 {
+  display: contents;
+}
+.sociodesk-icon12 {
+  top: 251px;
+  left: 229px;
+  width: 89px;
+  height: 68px;
+  position: absolute;
+  text-decoration: none;
+}
+.sociodesk-icon14 {
+  top: 155px;
+  left: 239px;
+  width: 73px;
+  height: 56px;
+  position: absolute;
+}
+@media(max-width: 1600px) {
+  .sociodesk-headersection {
+    width: 1599px;
+    height: 1404px;
+  }
+  .sociodesk-container02 {
+    top: 1px;
+    right: -44px;
+    position: absolute;
+  }
+  .sociodesk-herobackground {
+    left: 43px;
+    width: 756px;
+    bottom: -77px;
+    height: 737px;
+  }
+  .sociodesk-purpulebackground {
+    top: 227px;
+    left: 129px;
+    width: 610px;
+    height: 567px;
+  }
+  .sociodesk-heroimage {
+    top: 253px;
+    left: 63px;
+    width: 736px;
+    margin: auto;
+  }
+  .sociodesk-container04 {
+    top: 22px;
+    left: 473px;
+    width: 725px;
+  }
+  .sociodesk-text03 {
+    left: 146px;
+  }
+  .sociodesk-text04 {
+    left: 435px;
+    bottom: -4px;
+  }
+  .sociodesk-text05 {
+    left: 312px;
+    bottom: -4px;
+  }
+  .sociodesk-text06 {
+    color: rgb(57, 0, 91);
+    right: 19px;
+    bottom: -4px;
+    font-size: 28px;
+    font-family: Rubik;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .sociodesk-container07 {
+    left: 83px;
+    bottom: 123px;
+  }
+  .sociodesk-servicesbuttn {
+    left: -7px;
+    bottom: -120px;
+  }
+  .sociodesk-text08 {
+    left: 62px;
+    width: var(--dl-size-size-xxlarge);
+    bottom: -93px;
+    height: var(--dl-size-size-medium);
+  }
+  .sociodesk-container08 {
+    top: 2px;
+    right: -47px;
+    width: 296px;
+    height: 77px;
+    position: absolute;
+  }
+  .sociodesk-bookappointmentbutn {
+    top: -2px;
+    left: 20px;
+    width: auto;
+    height: 76px;
+  }
+  .sociodesk-text10 {
+    top: 5px;
+    color: rgb(57, 0, 91);
+    right: 95px;
+    font-size: 22px;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+  .sociodesk-container09 {
+    width: 581px;
+  }
+  .sociodesk-bulb1 {
+    top: 110px;
+    right: 19px;
+  }
+  .sociodesk-container-service {
+    width: 100%;
+    height: 1305px;
+  }
+  .sociodesk-servicessection {
+    left: -74px;
+    width: 1599px;
+    bottom: -8px;
+    height: 1235px;
+  }
+  .sociodesk-container14 {
+    right: -542px;
+    bottom: -703px;
+  }
+  .sociodesk-container18 {
+    top: 807px;
+    right: 35px;
+    width: 215px;
+  }
+  .sociodesk-container20 {
+    top: 437px;
+    left: 1001px;
+  }
+  .sociodesk-container22 {
+    top: 808px;
+    left: 1002px;
+    height: 280px;
+    padding-bottom: 5px;
+  }
+  .sociodesk-container24 {
+    top: 804px;
+    left: 645px;
+  }
+  .sociodesk-container26 {
+    top: 433px;
+    right: 27px;
+    width: 214px;
+  }
+  .sociodesk-container30 {
+    top: 82px;
+    right: 25px;
+    width: 213px;
+  }
+  .sociodesk-container32 {
+    top: 78px;
+    left: 640px;
+  }
+  .sociodesk-container36 {
+    top: 174px;
+    left: 928px;
+  }
+  .sociodesk-aboutsection {
+    width: 100%;
+  }
+  .sociodesk-servicesbuttn1 {
+    left: -1055px;
+    bottom: -829px;
+  }
+  .sociodesk-container40 {
+    top: 675px;
+    left: 523px;
+  }
+  .sociodesk-servicesbuttn2 {
+    top: -16px;
+    left: 1227px;
+  }
+  .sociodesk-text66 {
+    top: 15px;
+    color: rgb(57, 0, 91);
+    right: 453px;
+    font-size: 40px;
+    font-family: Rubik;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .sociodesk-container-brand {
+    width: 100%;
+  }
+  .sociodesk-brandswehaveworkedwith {
+    width: 1600px;
+    height: 1486px;
+  }
+  .sociodesk-logobg {
+    top: 759px;
+    left: 77px;
+    width: 1350px;
+    position: absolute;
+  }
+  .sociodesk-container42 {
+    top: 231px;
+    left: 71px;
+  }
+  .sociodesk-logobg1 {
+    top: 21px;
+    left: 17px;
+  }
+  .sociodesk-group6 {
+    top: 98px;
+    right: 4px;
+  }
+  .sociodesk-group7 {
+    top: 98px;
+    left: 36px;
+  }
+  .sociodesk-rebridzrealtors {
+    top: 102px;
+    left: 481px;
+  }
+  .sociodesk-laxmirealestate {
+    top: 823px;
+    left: 118px;
+  }
+  .sociodesk-untitleddesign13 {
+    top: 35px;
+    left: -16px;
+  }
+  .sociodesk-nitinproperties {
+    top: 828px;
+    left: 659px;
+  }
+  .sociodesk-container43 {
+    left: 515px;
+  }
+  .sociodesk-container44 {
+    width: 100%;
+  }
+}
+@media(max-width: 1200px) {
+  .sociodesk-container01 {
+    top: -62px;
+    left: 6px;
+    height: 7412px;
+  }
+  .sociodesk-container-header {
+    width: 1199px;
+    height: 1350px;
+  }
+  .sociodesk-headersection {
+    top: 9px;
+    right: -1px;
+    width: 100%;
+    height: 1512px;
+    margin-bottom: 0px;
+  }
+  .sociodesk-container02 {
+    top: 239px;
+    right: -27px;
+    width: 594px;
+    height: 576px;
+  }
+  .sociodesk-herobackground {
+    right: -26px;
+    width: 585px;
+    bottom: -69px;
+    height: 464px;
+  }
+  .sociodesk-purpulebackground {
+    top: 22px;
+    left: 120px;
+    width: 378px;
+    height: 331px;
+  }
+  .sociodesk-heroimage {
+    top: 21px;
+    flex: 1;
+    right: 47px;
+    width: auto;
+    height: 344px;
+  }
+  .sociodesk-text {
+    top: 74px;
+    left: 50px;
+    font-size: 40px;
+  }
+  .sociodesk-container04 {
+    top: 75px;
+    left: 305px;
+    width: 683px;
+    height: 39px;
+  }
+  .sociodesk-container05 {
+    left: 9px;
+    bottom: -1px;
+  }
+  .sociodesk-text02 {
+    font-size: 25px;
+  }
+  .sociodesk-text03 {
+    left: 140px;
+    bottom: 1px;
+    font-size: 25px;
+  }
+  .sociodesk-text04 {
+    left: 399px;
+    color: rgb(57, 0, 91);
+    bottom: 1px;
+    font-size: 25px;
+    font-family: Rubik;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .sociodesk-text05 {
+    left: 287px;
+    bottom: 1px;
+    font-size: 25px;
+  }
+  .sociodesk-text06 {
+    right: 51px;
+    bottom: 1px;
+    position: absolute;
+    font-size: 25px;
+  }
+  .sociodesk-container06 {
+    top: 613px;
+    left: 90px;
+  }
+  .sociodesk-text07 {
+    color: rgb(57, 0, 91);
+    font-size: 30px;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .sociodesk-rectangle5 {
+    height: 295px;
+  }
+  .sociodesk-container08 {
+    top: 54px;
+    right: 39px;
+    width: 140px;
+    position: absolute;
+    align-self: stretch;
+    padding-right: 4px;
+  }
+  .sociodesk-bookappointmentbutn {
+    top: 0px;
+    left: -10px;
+    width: 180px;
+    height: 48px;
+  }
+  .sociodesk-text10 {
+    top: 1px;
+    color: rgb(57, 0, 91);
+    right: -6px;
+    font-size: 16px;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .sociodesk-container09 {
+    width: 486px;
+  }
+  .sociodesk-ellipse2 {
+    top: 150px;
+    right: 13px;
+  }
+  .sociodesk-ellipse5 {
+    left: 365px;
+    bottom: 448px;
+  }
+  .sociodesk-ellipse12 {
+    top: 705px;
+    left: 379px;
+  }
+  .sociodesk-ellipse9 {
+    top: 349px;
+    left: 157px;
+  }
+  .sociodesk-ellipse11 {
+    display: none;
+  }
+  .sociodesk-bulb1 {
+    top: 149px;
+    right: 9px;
+    width: 77px;
+    height: 64px;
+  }
+  .sociodesk-button {
+    top: 68px;
+    color: #39005b;
+    right: 20px;
+    width: 112px;
+    height: 63px;
+    position: absolute;
+    background-color: rgb(227, 210, 242);
+  }
+  .sociodesk-servicessection {
+    left: -112px;
+    width: var(--dl-size-size-maxwidth);
+    bottom: 3px;
+  }
+  .sociodesk-container14 {
+    right: -379px;
+    bottom: -703px;
+  }
+  .sociodesk-container16 {
+    right: -107px;
+    bottom: -701px;
+  }
+  .sociodesk-container18 {
+    top: 797px;
+    left: 1057px;
+    width: 200px;
+  }
+  .sociodesk-container20 {
+    top: 437px;
+    left: 788px;
+  }
+  .sociodesk-container22 {
+    top: 806px;
+    left: 784px;
+    width: 210px;
+    height: 262px;
+  }
+  .sociodesk-container24 {
+    top: 808px;
+    left: 477px;
+  }
+  .sociodesk-container26 {
+    top: 436px;
+    left: 1048px;
+    width: 207px;
+  }
+  .sociodesk-container28 {
+    top: 74px;
+    left: 205px;
+  }
+  .sociodesk-container30 {
+    top: 73px;
+    left: 1049px;
+    width: 215px;
+  }
+  .sociodesk-container32 {
+    top: 76px;
+    left: 486px;
+  }
+  .sociodesk-container34 {
+    top: 803px;
+    left: 212px;
+    width: 206px;
+  }
+  .sociodesk-container36 {
+    top: 166px;
+    left: 660px;
+  }
+  .sociodesk-container-about {
+    width: auto;
+  }
+  .sociodesk-aboutsection {
+    width: 1199px;
+    margin-right: 0px;
+  }
+  .sociodesk-container38 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+  }
+  .sociodesk-servicesbuttn1 {
+    left: 186px;
+    bottom: -859px;
+  }
+  .sociodesk-text27 {
+    top: 13px;
+    color: rgb(57, 0, 91);
+    right: -66px;
+    width: var(--dl-size-size-maxwidth);
+    font-size: 31px;
+    font-family: Rubik;
+    font-weight: 300;
+    line-height: 1.5;
+    text-decoration: none;
+  }
+  .sociodesk-container40 {
+    top: 662px;
+    left: 246px;
+  }
+  .sociodesk-servicesbuttn2 {
+    top: 25px;
+    left: 792px;
+  }
+  .sociodesk-text66 {
+    top: 58px;
+    left: 886px;
+    width: var(--dl-size-size-large);
+    height: var(--dl-size-size-medium);
+    position: absolute;
+  }
+  .sociodesk-brandswehaveworkedwith {
+    width: 100%;
+  }
+  .sociodesk-logobg {
+    left: -9px;
+    width: 1199px;
+    height: 353px;
+  }
+  .sociodesk-logobg1 {
+    top: -2px;
+    left: -55px;
+    width: 1194px;
+    height: 371px;
+    position: absolute;
+  }
+  .sociodesk-group6 {
+    top: 72px;
+    left: 625px;
+  }
+  .sociodesk-group7 {
+    top: 77px;
+    left: -56px;
+  }
+  .sociodesk-rebridzrealtors {
+    top: 72px;
+    left: 399px;
+  }
+  .sociodesk-logoe1603775232999 {
+    top: 4px;
+    left: -4px;
+  }
+  .sociodesk-laxmirealestate {
+    top: 820px;
+    left: 44px;
+    width: 466px;
+    height: 187px;
+  }
+  .sociodesk-untitleddesign13 {
+    width: 462px;
+    height: 121px;
+  }
+  .sociodesk-nitinproperties {
+    top: 828px;
+    left: 531px;
+    width: 632px;
+    height: 182px;
+  }
+  .sociodesk-image12569innercompimage {
+    top: 48px;
+    left: 5px;
+    width: 611px;
+    height: 91px;
+  }
+  .sociodesk-container43 {
+    left: 343px;
+  }
+  .sociodesk-container44 {
+    width: 1199px;
+    height: 897px;
+  }
+  .sociodesk-contactussection {
+    top: 41px;
+    left: -64px;
+    width: 100%;
+  }
+  .sociodesk-rectangle36 {
+    top: 131px;
+    left: 129px;
+    width: 1115px;
+    height: 452px;
+  }
+}
+@media(max-width: 991px) {
+  .sociodesk-container01 {
+    width: 990px;
+  }
+  .sociodesk-container-header {
+    height: 1187px;
+  }
+  .sociodesk-herobackground {
+    top: 1px;
+    left: -74px;
+  }
+  .sociodesk-purpulebackground {
+    top: 20px;
+    left: -3px;
+    width: 446px;
+    height: 419px;
+  }
+  .sociodesk-heroimage {
+    top: 52px;
+    left: -150px;
+    width: 331px;
+    height: 319px;
+    position: absolute;
+  }
+  .sociodesk-navbar-interactive {
+    top: 64px;
+    left: -52px;
+    height: 57px;
+    position: absolute;
+    padding-bottom: 11px;
+  }
+  .sociodesk-desktop-menu {
+    display: none;
+    position: relative;
+  }
+  .sociodesk-burger-menu {
+    top: 18px;
+    left: 984px;
+    width: 39px;
+    height: 34px;
+    display: flex;
+    position: absolute;
+  }
+  .sociodesk-icon {
+    top: 0px;
+    left: -71px;
+    width: 37px;
+    height: 34px;
+    position: absolute;
+  }
+  .sociodesk-mobile-menu {
+    height: 477px;
+  }
+  .sociodesk-nav {
+    top: 80px;
+    left: 79px;
+    position: absolute;
+  }
+  .sociodesk-close-menu {
+    position: relative;
+  }
+  .sociodesk-icon02 {
+    top: -38px;
+    left: -9px;
+    width: 45px;
+    height: 29px;
+    position: absolute;
+  }
+  .sociodesk-container04 {
+    top: 129px;
+    left: 204px;
+    display: none;
+  }
+  .sociodesk-servicessection {
+    left: -97px;
+    width: 1599px;
+    bottom: -112px;
+    height: 1362px;
+  }
+  .sociodesk-container14 {
+    right: -382px;
+    bottom: -707px;
+  }
+  .sociodesk-container16 {
+    right: -68px;
+    bottom: -707px;
+  }
+  .sociodesk-container18 {
+    top: 1100px;
+    left: 798px;
+    bottom: -18px;
+  }
+  .sociodesk-container20 {
+    top: 445px;
+    left: 805px;
+  }
+  .sociodesk-container22 {
+    top: 784px;
+    left: 799px;
+  }
+  .sociodesk-container24 {
+    top: 785px;
+    left: 482px;
+  }
+  .sociodesk-container26 {
+    top: 1100px;
+    left: 480px;
+  }
+  .sociodesk-container28 {
+    top: 79px;
+    left: 170px;
+  }
+  .sociodesk-container30 {
+    top: 1100px;
+    left: 185px;
+    bottom: -41px;
+  }
+  .sociodesk-container32 {
+    top: 82px;
+    left: 488px;
+  }
+  .sociodesk-container34 {
+    top: 787px;
+    left: 177px;
+  }
+  .sociodesk-container36 {
+    top: 153px;
+    left: 708px;
+  }
+  .sociodesk-container-about {
+    width: 990px;
+  }
+  .sociodesk-aboutsection {
+    top: 50px;
+    left: -19px;
+    width: 990px;
+    bottom: -111px;
+    height: 1273px;
+  }
+  .sociodesk-text27 {
+    top: 13px;
+    left: 30px;
+    color: rgb(57, 0, 91);
+    font-size: 31px;
+    font-family: Rubik;
+    font-weight: 300;
+    line-height: 1.5;
+    text-decoration: none;
+  }
+  .sociodesk-servicesbuttn2 {
+    top: 20px;
+    left: 600px;
+    right: 6px;
+  }
+  .sociodesk-text66 {
+    top: 51px;
+    left: 702px;
+  }
+  .sociodesk-brandswehaveworkedwith {
+    width: 990px;
+  }
+  .sociodesk-logobg1 {
+    top: -1px;
+    left: -88px;
+  }
+  .sociodesk-contactussection {
+    flex: 1;
+    width: 1400px;
+  }
+  .sociodesk-container45 {
+    top: 127px;
+    left: 48px;
+  }
+  .sociodesk-rectangle36 {
+    top: 0px;
+    left: 0px;
+  }
+  .sociodesk-text71 {
+    top: 168px;
+    left: 194px;
+  }
+  .sociodesk-text73 {
+    top: 375px;
+    left: 210px;
+  }
+  .sociodesk-text74 {
+    top: 480px;
+    left: 180px;
+  }
+  .sociodesk-text76 {
+    top: 173px;
+    left: 830px;
+  }
+  .sociodesk-text78 {
+    top: 263px;
+    left: 847px;
+  }
+  .sociodesk-text80 {
+    top: 270px;
+    left: 57px;
+  }
+  .sociodesk-icon04 {
+    top: 157px;
+    left: 737px;
+  }
+  .sociodesk-icon06 {
+    top: 248px;
+    left: 738px;
+  }
+  .sociodesk-icon08 {
+    top: 463px;
+    left: 116px;
+  }
+  .sociodesk-icon10 {
+    top: 351px;
+    left: 122px;
+  }
+  .sociodesk-icon12 {
+    top: 254px;
+    left: 120px;
+  }
+  .sociodesk-icon14 {
+    top: 158px;
+    left: 130px;
+  }
+}
+@media(max-width: 767px) {
+  .sociodesk-container01 {
+    width: 100%;
+    height: 7340px;
+  }
+  .sociodesk-container02 {
+    top: 232px;
+    left: 396px;
+    width: 508px;
+    height: 528px;
+  }
+  .sociodesk-heroimage {
+    top: 52px;
+    left: 52px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .sociodesk-text {
+    top: 75px;
+    left: 44px;
+  }
+  .sociodesk-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .sociodesk-burger-menu {
+    left: 759px;
+    bottom: 7px;
+    align-items: center;
+    justify-content: center;
+  }
+  .sociodesk-mobile-menu {
+    top: -2px;
+    left: 40px;
+    width: 766px;
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  .sociodesk-link {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .sociodesk-link01 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .sociodesk-link02 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .sociodesk-link03 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .sociodesk-link04 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .sociodesk-rectangle4 {
+    width: 597px;
+    height: 308px;
+  }
+  .sociodesk-container09 {
+    top: 272px;
+    left: 31px;
+  }
+  .sociodesk-servicessection {
+    width: var(--dl-size-size-maxwidth);
+    height: 1426px;
+  }
+  .sociodesk-container14 {
+    right: -327px;
+  }
+  .sociodesk-container16 {
+    right: -58px;
+    bottom: -701px;
+  }
+  .sociodesk-container18 {
+    top: 1110px;
+    left: 155px;
+    bottom: var(--dl-space-space-fourunits);
+  }
+  .sociodesk-container20 {
+    top: 445px;
+    left: 663px;
+  }
+  .sociodesk-container22 {
+    top: 792px;
+    left: 675px;
+  }
+  .sociodesk-container24 {
+    left: 430px;
+  }
+  .sociodesk-container26 {
+    top: 1100px;
+    left: 673px;
+    bottom: 46px;
+  }
+  .sociodesk-container28 {
+    left: 165px;
+  }
+  .sociodesk-container30 {
+    top: 1100px;
+    left: 424px;
+    bottom: 6px;
+  }
+  .sociodesk-container32 {
+    left: 423px;
+  }
+  .sociodesk-container34 {
+    left: 162px;
+  }
+  .sociodesk-container36 {
+    top: 156px;
+    left: 561px;
+  }
+  .sociodesk-aboutsection {
+    top: 10px;
+    left: -6px;
+    height: 1207px;
+  }
+  .sociodesk-servicesbuttn1 {
+    left: 44px;
+    bottom: -840px;
+  }
+  .sociodesk-text27 {
+    left: 28px;
+    bottom: 3px;
+  }
+  .sociodesk-container40 {
+    top: 659px;
+    left: 94px;
+  }
+  .sociodesk-servicesbuttn2 {
+    top: 72px;
+    left: 451px;
+    width: 335px;
+    height: 99px;
+  }
+  .sociodesk-text66 {
+    top: 92px;
+    left: 542px;
+  }
+  .sociodesk-group6 {
+    display: none;
+  }
+  .sociodesk-laxmirealestate {
+    top: 821px;
+    left: 10px;
+    width: 736px;
+  }
+  .sociodesk-untitleddesign13 {
+    width: auto;
+    height: 108px;
+  }
+  .sociodesk-nitinproperties {
+    top: 831px;
+    left: 400px;
+    right: -43px;
+  }
+  .sociodesk-image12569innercompimage {
+    top: 41px;
+    left: 6px;
+    width: 317px;
+    height: 97px;
+  }
+  .sociodesk-container43 {
+    left: 170px;
+    bottom: 124px;
+  }
+  .sociodesk-text76 {
+    left: 659px;
+  }
+  .sociodesk-text78 {
+    top: 263px;
+    left: 676px;
+  }
+  .sociodesk-icon04 {
+    top: 156px;
+    left: 592px;
+  }
+  .sociodesk-icon06 {
+    left: 595px;
+  }
+}
+@media(max-width: 479px) {
+  .sociodesk-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .sociodesk-burger-menu {
+    left: 470px;
+    bottom: 6px;
+  }
+  .sociodesk-icon {
+    top: -1px;
+    left: -44px;
+  }
+  .sociodesk-mobile-menu {
+    width: 478px;
+    padding: 16px;
+  }
+  .sociodesk-nav {
+    top: 85px;
+    left: 36px;
+  }
+  .sociodesk-container06 {
+    top: 619px;
+    left: 3px;
+  }
+  .sociodesk-container07 {
+    top: 1148px;
+    left: 27px;
+  }
+  .sociodesk-rectangle5 {
+    width: auto;
+  }
+  .sociodesk-rectangle4 {
+    width: 478px;
+    height: 315px;
+  }
+  .sociodesk-container09 {
+    top: 245px;
+    left: 2px;
+    width: 478px;
+    height: 310px;
+  }
+  .sociodesk-text14 {
+    top: 797px;
+    left: 4px;
+    color: rgb(57, 0, 91);
+    font-size: 20px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 200.5%;
+    text-decoration: none;
+  }
+  .sociodesk-servicessection {
+    left: 3px;
+    right: -3px;
+    width: 478px;
+    bottom: -110px;
+    height: 1365px;
+  }
+  .sociodesk-container14 {
+    display: none;
+  }
+  .sociodesk-container16 {
+    right: 82px;
+    bottom: -612px;
+  }
+  .sociodesk-container18 {
+    top: 51px;
+    left: 266px;
+    right: 9px;
+  }
+  .sociodesk-container20 {
+    top: 345px;
+    flex: 1;
+    left: 270px;
+    right: left;
+    width: 201px;
+    height: 271px;
+    position: absolute;
+    align-self: flex-start;
+    margin-top: auto;
+  }
+  .sociodesk-container22 {
+    top: 677px;
+    left: 270px;
+    right: 1px;
+  }
+  .sociodesk-container24 {
+    top: 1000px;
+    left: 8px;
+    width: 206px;
+    bottom: -17px;
+    height: 255px;
+  }
+  .sociodesk-container26 {
+    top: 42px;
+    right: 34px;
+  }
+  .sociodesk-container28 {
+    top: 51px;
+    left: 26px;
+  }
+  .sociodesk-container30 {
+    display: none;
+  }
+  .sociodesk-container32 {
+    top: 1000px;
+    left: 270px;
+    right: 26px;
+    bottom: 40px;
+  }
+  .sociodesk-container34 {
+    top: 677px;
+    left: 12px;
+  }
+  .sociodesk-aboutsection {
+    width: 100%;
+  }
+  .sociodesk-servicesbuttn1 {
+    left: -27px;
+    bottom: -836px;
+  }
+  .sociodesk-container40 {
+    top: 655px;
+    left: 23px;
+  }
+  .sociodesk-servicesbuttn2 {
+    top: 40px;
+    left: 129px;
+  }
+  .sociodesk-text66 {
+    top: 71px;
+    left: 231px;
+  }
+  .sociodesk-group6 {
+    top: 370px;
+    left: -84px;
+    bottom: -178px;
+  }
+  .sociodesk-group3 {
+    width: 478px;
+  }
+  .sociodesk-text67 {
+    top: 29px;
+    left: -28px;
+    color: rgb(57, 0, 91);
+    font-size: 32px;
+    font-family: Rubik;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .sociodesk-laxmirealestate {
+    top: 868px;
+    left: -2px;
+  }
+  .sociodesk-nitinproperties {
+    display: none;
+  }
+  .sociodesk-container43 {
+    left: 6px;
+    bottom: 188px;
+  }
+  .sociodesk-contactussection {
+    top: 41px;
+    left: -80px;
+    width: 600px;
+    padding-right: 0px;
+  }
+  .sociodesk-rectangle36 {
+    width: 510px;
+  }
+  .sociodesk-text71 {
+    top: 181px;
+    left: 184px;
+  }
+  .sociodesk-text73 {
+    top: 388px;
+    left: 180px;
+    right: 161px;
+  }
+  .sociodesk-text74 {
+    top: 487px;
+    left: 130px;
+    right: -17px;
+  }
+  .sociodesk-text80 {
+    top: 283px;
+    left: 170px;
+    right: 91px;
+    width: var(--dl-size-size-xlarge);
+  }
+  .sociodesk-icon08 {
+    top: 476px;
+    left: 106px;
+  }
+  .sociodesk-icon10 {
+    top: 364px;
+    left: 112px;
+  }
+  .sociodesk-icon12 {
+    top: 267px;
+    left: 110px;
+  }
+  .sociodesk-icon14 {
+    top: 174px;
+    left: 120px;
+    width: 74px;
+    height: 53px;
+    position: absolute;
+  }
+}

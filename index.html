@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOCIODESK</title>
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+    <style type="text/css">
+        .menu {
+            display : none;
+            height: 100vh;
+            width: 100vw;
+            background-color: #ffffff;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 120px;
+        }
+        .menu * {
+            display: block;
+            margin: 12px auto;
+        }
+        .menu-toggler {
+            display : none;
+            cursor: pointer;
+            background: none;
+            text-align: center;
+        }
+        .bordered {
+            border : 2px solid black;
+        }
+        .text-main-blue-color {
+            color : rgba(57, 0, 91, 1);
+        }
+        .text-main-light-purple-color {
+            color : #FF00C788;
+        }
+        .text-white-color {
+            color : #ffffff;
+        }
+        .flex {
+            display : flex;
+        }
+        .header {
+            padding : 48px 20px;
+            height : 10vh;
+            width : 100%;
+            max-height : 58px;
+            min-height : 55px;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            background-color: #ffffffe0;
+        }
+        .logo-text { 
+            font-size: xx-large;
+            font-weight: bold;
+            font-family: Rubik;
+        }
+        .horizontal-nav-links {
+            display : inherit;
+            width : max-content;
+            justify-content: space-between;
+        }
+        .horizontal-nav-links a {
+            margin : 10px;
+            font-weight : bold;
+        }
+        .horizontal-nav-links a.active-page {
+            text-decoration: line-through solid #FF00C788 4px;
+        }
+        .action-button-in-header {
+            border-radius: 100px;
+            background-color: rgba(57, 0, 91, 1);
+            padding: 12px 20px;
+            display: inherit;
+            width: max-content;
+        }
+        .hovered-link:hover {
+            opacity : 0.6;
+        }
+        .section-1, .section-4 {
+            height : 80vh;
+            width : 100%;
+            padding : 40px;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .section-1-inner-container {
+            height : 100%;
+            width : 48%;
+            font-family : Rubik;
+            padding: 4% 0;
+        }
+        .section-1-inner-container-2 {
+            background: url("./public/external/heroimage2728-5z2-800w.png");
+            background-position: center;
+            background-attachment: scroll;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        .large-text {
+            font-size: 30px;
+            font-weight : 400;
+        }
+        .larger-text {
+            font-size: 30px;
+            font-weight : bolder;
+        }
+        .xx-large-text {
+            font-size: 54px;
+            font-weight: bolder;
+        }
+        .xxx-large-text {
+            font-size: 80px;
+            font-weight: bolder;
+        }
+        .italic {
+            font-style : italic;
+        }
+        .action-button-in-section-1 {
+            margin-top: 10%;
+            border-radius: 100px ;
+            background-color: rgba(57, 0, 91, 1);
+            padding: 15px;
+            width : 40%;
+            min-width: max-content;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .quote-section {
+            height : max-content;
+            padding : 40px;
+            align-items: center;
+            margin : 12%;
+            background-color: #efefef;
+            border-radius: 20px;
+            font-family: Rubik;
+        }
+        .section-title-container {
+            margin: 30px;
+            justify-content: center;
+            padding-top: 10%;
+        }
+        .section-3 {
+            margin-top: 5%;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            text-align: center;
+            padding: 40px;
+        }
+        .section-3-content-container {
+            height : 50vh;
+            width : 30%;
+            min-width: 200px;
+            max-width : 240px;
+            max-height: 300px;
+            min-height: 250px;
+            background-color: #efefef;
+            border-radius : 20px;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .section-3-content-container:hover {
+            scale: 110%;
+        }
+        .section-3-content-image-container {
+            border: 2px solid #c7c7c7;
+            height: 100px;
+            width: 100px;
+            border-radius: 100%;
+            background-position: top;
+            background-attachment: scroll;
+            background-size: 240% 190%;
+            background-repeat: no-repeat;
+        }
+        ul li {
+            margin-left: 40px; 
+        }
+        .border-line {
+            height: 100%;
+            width: 3px;
+            background: #FF00C788;
+        }
+        .section-4 {
+            background-color: #efefef;
+            margin: 5% auto;
+            max-width: 1100px;
+        }
+        .section-5 {
+            padding: 10%;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .section-5 img {
+            background-color : #25001d;
+            padding: 20px;
+            margin: 10px;
+        }
+        .block {
+            display: block;
+        }
+        .footer {
+            padding : 40px;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            height : 30vh;
+        }
+        .icon {
+            color: #101010;
+            font-size: medium;
+        }
+        .footer div {
+            display: inherit;
+            justify-content : space-between;
+            margin: 30px;
+        }
+        .footer div> * {
+            margin : 4px;
+        }
+
+        /*adding responsiveness*/
+        @media only screen and (max-width:768px) {
+            .menu-toggler {
+                display: block;
+            }
+            .align-text-center {
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .header {
+                max-height : 40px;
+                padding : 38px 10px;
+            }
+            .logo-in-header {
+                font-size : large !important;
+            }
+            .horizontal-nav-links, .action-button-in-header, .section-1-inner-container-2, .border-line {
+                display: none !important;
+            }
+            .large-text {
+                font-size: 26px;
+                font-weight : 400;
+            }
+            .larger-text {
+                font-size: 26px;
+                font-weight : bolder;
+            }
+            .xx-large-text {
+                font-size: 48px;
+                font-weight: bolder;
+            }
+            .xxx-large-text {
+                font-size: 60px;
+                font-weight: bolder;
+            }
+            .section-4 {
+                flex-flow: column;
+            }
+            .section-1, .section-4 {
+                height : max-content;
+                width : 100%;
+                padding : 30px;
+            }
+            .section-1-inner-container {
+                width : 100%;
+                align-self: center;
+            }
+        }
+        @media only screen and (max-width:550px) {
+            .action-button-in-section-1 {
+                padding: 8px;
+                font-size: 16px;
+            }
+            .logo-text { 
+                font-size: 20px !important;
+            }
+            .section-5 img {
+                scale: 50%;
+                margin: 4px;
+            }
+            .section-5 {
+                padding: 4%;
+            }
+            .large-text {
+                font-size: 20px;
+                font-weight : 400;
+            }
+            .larger-text {
+                font-size: 20px;
+                font-weight : bolder;
+            }
+            .xx-large-text {
+                font-size: 30px;
+                font-weight: bolder;
+            }
+            .xxx-large-text {
+                font-size: 40px;
+                font-weight: bolder;
+            }
+            .quote-section {
+                padding : 20px;
+                margin : 12%;
+                margin-top: 7%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header flex">
+        <div class="logo-in-header">
+            <a href="." class="logo-text text-main-blue-color">Sociodesk</a>
+        </div>
+        <div class="horizontal-nav-links text-main-blue-color">
+            <a href="#" class="active-page">Home</a>
+            <a href="#services" class="hovered-link">Services</a>
+            <a href="#about" class="hovered-link">About</a>
+            <a href="#portfolio" class="hovered-link">Portfolio</a>
+            <a href="#contact" class="hovered-link">Contact</a>
+        </div>
+        <a href="https://calendly.com/d/4db-y3s-fnp/one-off-meeting" class="action-button-in-header text-white-color hovered-link">Book Appointment</a>
+        <button class="menu-toggler"><i class="fas fa-bars icon"></i></button>
+    </div>
+    <div class="section-1 flex">
+        <div class="section-1-inner-container">
+            <p class="text-main-blue-color xx-large-text align-text-center">
+                We Are
+            </p>
+            <p class="text-main-light-purple-color xxx-large-text align-text-center">
+                SOCIODESK
+            </p>
+            <p class="text-main-blue-color large-text italic align-text-center">
+                A 360&deg; MARKETING AGENCY
+            </p>
+             <a href="https://calendly.com/d/4db-y3s-fnp/one-off-meeting" class="align-text-center action-button-in-section-1 text-white-color hovered-link">BOOK NOW</a>
+        </div>
+        <div class="section-1-inner-container section-1-inner-container-2"></div>
+    </div>
+    <div class="quote-section flex">
+        <q class="large-text text-main-blue-color">
+            In the world of marketing, success requires a full
+            -circle  perspective. Our 360-degree marketing
+            agency sees not only what's in front of you but
+            also what surrounds you, guiding your brand's
+            journey in every direction.
+        </q>
+    </div>
+    <div class="section-title-container flex" id="services">
+        <p class="text-main-blue-color larger-text">
+            Our Services
+        </p>
+    </div>
+    <div class="flex section-3 text-main-blue-color">
+        <div class="section-3-content-container">
+            <div class="section-3-content-image-container" style="background-image: url('./public/external/leadgen.png')"></div>
+            <div class="section-3-content-text-container">
+                <p>
+                    LEAD GENERATION
+                </p>
+            </div>
+        </div>
+        <div class="section-3-content-container">
+            <div class="section-3-content-image-container" style="background-image: url('./public/external/socialmed.png')"></div>
+            <div class="section-3-content-text-container">
+                <p>
+                    SOCIAL MEDIA<br/>MANAGEMENT
+                </p>
+            </div>
+        </div>
+        <div class="section-3-content-container">
+            <div class="section-3-content-image-container" style="background-image: url('./public/external/graphic.png')"></div>
+            <div class="section-3-content-text-container">
+                <p>
+                    GRAPHIC DESIGNING
+                </p>
+            </div>
+        </div>
+        <div class="section-3-content-container">
+            <div class="section-3-content-image-container" style="background-image: url('./public/external/uiix.png')"></div>
+            <div class="section-3-content-text-container">
+                <p>
+                    UI/UX DESIGNING<br/>
+                    WEBSITE DEVELOPMENT
+                </p>
+            </div>
+        </div>
+        <div class="section-3-content-container">
+            <div class="section-3-content-image-container" style="background-image: url('./public/external/applica.png')"></div>
+            <div class="section-3-content-text-container">
+                <p>
+                    APPLICATION DEVELOPMENT
+                </p>
+            </div>
+        </div>
+        <div class="section-3-content-container">
+            <div class="section-3-content-image-container" style="background-image: url('./public/external/leadgen.png')"></div>
+            <div class="section-3-content-text-container">
+                <p>
+                    LEAD GENERATION
+                </p>
+            </div>
+        </div>
+        <div class="section-3-content-container">
+            <div class="section-3-content-image-container" style="background-image: url('./public/external/seo.png')"></div>
+            <div class="section-3-content-text-container">
+                <p>
+                    SEO OPTIMIZATION
+                </p>
+            </div>
+        </div>
+        <div class="section-3-content-container">
+            <div class="section-3-content-image-container" style="background-image: url('./public/external/content.svg')"></div>
+            <div class="section-3-content-text-container">
+                <p>
+                    CONTENT CREATION
+                </p>
+            </div>
+        </div>
+        <div class="section-3-content-container">
+            <div class="section-3-content-image-container" style="background-image: url('./public/external/brand.svg')"></div>
+            <div class="section-3-content-text-container">
+                <p>
+                    BRANDING
+                </p>
+            </div>
+        </div>
+        <div class="section-3-content-container">
+            <div class="section-3-content-image-container" style="background-image: url('./public/external/influ.svg')"></div>
+            <div class="section-3-content-text-container">
+                <p>
+                    INFLUENCER MARKETING
+                </p>
+            </div>
+        </div>
+        <div class="section-3-content-container">
+            <div class="section-3-content-image-container" style="background-image: url('./public/external/google.svg')"></div>
+            <div class="section-3-content-text-container">
+                <p>
+                    GOOGLE & META ADS
+                </p>
+            </div>
+        </div>
+        <div class="section-3-content-container">
+            <div class="section-3-content-image-container" style="background-image: url('./public/external/ai.svg')"></div>
+            <div class="section-3-content-text-container">
+                <p>AI INTEGRATION
+                </p>
+            </div>
+        </div>
+        <div class="section-3-content-container">
+            <div class="section-3-content-image-container" style="background-image: url('./public/external/quick.svg')"></div>
+            <div class="section-3-content-text-container">
+                <p>
+                    QUICK AUTOMATION
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="section-title-container flex" id="about">
+        <p class="text-main-blue-color larger-text">
+            About Us
+        </p>
+    </div>
+    <div class="section-4 flex text-main-blue-color " style="font-size: x-large;">
+        <div class="section-1-inner-container">
+            <p>
+                Sociodesk is your trusted partner in the ever-evolving world of marketing.
+                As a 360°  marketing agency, we're committed to helping brands not just stay a float but  thrive  in  the digital landscape. Our secret weapon is our exceptional team  of experts, each  armed with a unique set of skills and a shared passion for innovation.<br/><br/>
+                With Sociodesk  by your side, scaling your brand becomes a seamless and exciting journey, as we navigate  every angle of the marketing sphere to  ensure your success.
+            </p>
+        </div>
+        <div class="border-line">
+        </div>
+        <div class="section-1-inner-container">
+            <h4 style="margin: 10px;">We offer</h4>
+            <ul>
+                <li>Personal Assistance</li>
+                <li>24x7 Customer Support</li>
+                <li>Quality Work</li>
+                <li>Money Refund Guarantee</li>
+            </ul>
+        </div>
+    </div>
+    <div class="section-title-container flex" id="portfolio">
+        <p class="text-main-blue-color larger-text">
+            Brands we have worked with
+        </p>
+    </div>
+    <div class="section-5 text-main-blue-color flex">
+        <img src="./public/external/hrlogo3302-hh5-200h.png" alt="" class="block">
+        <img src="./public/external/logoe16037752329993302-reb-200h.png" alt="" class="block">
+        <img src="./public/external/logohelio3302-tud-200h.png" alt="" class="block">
+        <img src="./public/external/untitleddesign133302-e547-200h.png" alt="" class="block">
+        <a href="https://drive.google.com/file/d/1PU4Efnk2ZrVabHkYGQ1Bplixed_P6eLm/view" class="action-button-in-section-1 text-white-color hovered-link">PORTFOLIO</a>
+    </div>
+    <div class="section-title-container flex" id="contact">
+        <p class="text-main-blue-color larger-text">
+            Contact Us Today
+        </p>
+    </div>
+    <div class="footer flex">
+        <div>
+            <i class="fab fa-instagram icon"></i>
+            <a href="https://www.instagram.com/sociodesk/?utm_source=ig_web_button_share_sheet&igshid=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">@sociodesk</a>
+        </div>
+        <div>
+            <i class="fab fa-facebook icon"></i>
+            <a href="https://www.facebook.com/profile.php?id=100095671597675&sk=about" target="_blank" rel="noopener noreferrer">sociodesk</a>
+        </div>
+        <div>
+            <i class="fab fa-whatsapp icon"></i>
+            <a href="https://wa.me/+918954100292" target="_blank" rel="noopener noreferrer">+918954100292</a>
+        </div>
+        <div>
+            <i class="fas fa-envelope icon"></i>
+            <a href="mailto:sociodesk.help@gmail.com">sociodesk.help@gmail.com</a>
+        </div>
+        <div>
+            <i class="fab fa-linkedin icon"></i>
+            <a href="https://www.linkedin.com/company/sociodesk/" target="_blank" rel="noopener noreferrer">sociodesk.in</a>
+        </div>
+        <div>
+            <i class="fab fa-youtube icon`"></i>
+            <a href="https://youtube.com/@Sociodesk?si=TZsCWZsZ8f5i05W5" target="_blank" rel="noopener noreferrer">sociodesk</a>
+        </div>
+    </div>
+    <div class="menu text-main-blue-color large-text">
+        <a href="#" class="active-page menu-toggler">Home</a>
+        <a href="#services" class="hovered-link menu-toggler">Services</a>
+        <a href="#about" class="hovered-link menu-toggler">About</a>
+        <a href="#portfolio" class="hovered-link menu-toggler">Portfolio</a>
+        <a href="#contact" class="hovered-link menu-toggler">Contact</a>
+        <button class="menu-toggler text-main-light-purple-color">Close</button>
+    </div>
+    <script>
+        const menuToggler = document.querySelectorAll(".menu-toggler");
+        const menu = document.querySelector(".menu");
+        let isMenuDisplayed = false;
+
+        menuToggler.forEach(element => {
+            element.addEventListener("click", () => {
+                if(isMenuDisplayed) {
+                    menu.style.display = "none";
+                    isMenuDisplayed = false
+                }
+                else {
+                    menu.style.display = "block";
+                    isMenuDisplayed = true
+                }
+            })
+        })
+    </script>
+</body>
+</html>
